@@ -22,16 +22,16 @@
 #     print(int(num_one) * int(num_two))
 # elif operator == "/":
 #     print(int(num_one) / int(num_two))
-# count_latter = dict()
-# temp = ""
-# n = "abdul qudoos"
-# for i in range(0,len(n)):
-#     if n[i] not in temp:
-#         total = n.count(n[i])
-#         count_latter[n[i]] = total
-#         temp += n[i]
-# for key, value in count_latter.items():
-#     print(f"{key} : {value}")
+count_latter = dict()
+temp = ""
+n = "abdul qudoos"
+for i in range(0,len(n)):
+    if n[i] not in temp:
+        total = n.count(n[i])
+        count_latter[n[i]] = total
+        temp += n[i]
+for key, value in count_latter.items():
+    print(f"{key} : {value}")
 
 #              -1,-2,-3
 # #    0123456789
@@ -41,12 +41,12 @@
 # print(n.upper())
 # print((n.lower()))
 
-# print("hello\nclass")
-# print("hello ", end="")
-# print(" class", end="")
+print("hello\nclass")
+print("hello ", end="")
+print(" class", end="")
 
-# name = "10"
-# name_s = "Saboor Rao"
+name = "10"
+name_s = "Saboor Rao"
 
-# print(name - name_s)
+print(name + name_s)
 
