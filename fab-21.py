@@ -1,11 +1,11 @@
-# list_one = [2,4,6,7,8]
-# list_two = [1,3,4,5,7]
+list_one = [2,4,6,7,8]
+list_two = [1,3,4,5,7]
 # i = 0
-
+# j = -1
 # while i <= 4: #no of ittration 5   ---- [0,1,2,3,4]
-#     print(list_one[i] * list_two[i])
+#     print(list_one[i] * list_two[j])
 #     i += 1
-#     # i = i+1    
+#     j -= 1    
 # _________________________________________________
 
 # for i in range(0,5):
@@ -15,7 +15,7 @@
 # for i in range(0,5):
 #     print(list_one[i] * list_two[j])
 #     j -= 1
-#     # j = j-1
+    # j = j-1
 # ________________________________________________
 # i = 0
 # j = -1
